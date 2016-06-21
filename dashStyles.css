@@ -1,13 +1,33 @@
 body{
+  background-color: white;
+}
+
+div.containerTop{
+  font-size: 34px;
+  color: rgb(85, 85, 85);
+
 }
 
 header{
-  /*background-color: rgb(74, 153, 212);*/
+  background: rgb(13, 176, 43);
+  margin-top: 10px;
+}
+
+header figure{
+  width: 300px;
 }
 
 header img{
   width: 300px;
-  height: 150px;
+  height: 300px;
+}
+
+header strong{
+  margin-top: -170px;
+  margin-right: 180px;
+  color: white;
+  font-size: 32px;
+  float: right;
 }
 
 nav{
@@ -21,8 +41,7 @@ nav ul{
 }
 
 nav ul li{
-  /*background-color: rgb(74, 153, 212);*/
-    background-color: #656262;
+    background: rgb(85, 85, 85);
     font-size: 1.5em;
     border-radius:5px;
     border-bottom: 1px solid #888;
@@ -43,12 +62,12 @@ nav li{
 
 
 nav ul li:hover{
-    background-color: #000;
+  background: rgb(13, 176, 43);
 }
 
 #tableTr{
 color: white;
-background-color: black;
+background: rgb(13, 176, 43);
 }
 
 .td1{
@@ -60,7 +79,7 @@ div table td{
 }
 
 #dash{
-  width: 1000px;
+  width: 1300px;
 }
 a{
   text-decoration: none;
@@ -69,6 +88,39 @@ a{
 
 #perfil{
   margin-left: -30px;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
+}
+
+fieldset{
+  width: 800px;
+  text-align: center;
+  margin-right: -100px;
+}
+
+table.box{
+  width: 1000px;
+}
+
+table.box th{
+  padding: 20px;
+}
+
+table.box td{
+  padding: 15px;
+}
+
+#btnPlus{
+  float: right;
+}
+
+#plus{
+  width: 50px;
+  height: 50px;
+}
+
+footer{
+  text-align: center;
+  background: rgb(85, 85, 85);
+  color: white;
 }
