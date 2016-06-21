@@ -23,7 +23,7 @@
     <div>
       <table>
         <td id="dash">
-          <h1 class="toTable">Settings</h1>
+          <h1>Settings</h1>
         </td>
         <td>
           Welcome
@@ -46,9 +46,35 @@
           Description <br>
           <textarea name="name" rows="8" cols="40"></textarea><br>
           <hr>
-          <strong>When</strong><br>
         </form>
+        <strong>When</strong><br>
+        <table>
+          <td>
+            Departure <br>
+            <input type="text" name="departure" value="6:45 AM"><br>
+            Estimated Arrival <br>
+            <input type="text" name="estimatedArr" value="7:05 AM">
+          </td>
+          <td>
+            Select Days <br>
+            <form>
+              <input type="checkbox" name="monday" value="Monday" checked>Monday<br>
+              <input type="checkbox" name="tuesday" value="Tuesday" checked>Tuesday<br>
+              <input type="checkbox" name="wednesday" value="Wednesday" checked>Wednesday<br>
+              <input type="checkbox" name="thursday" value="Thursday" checked>Thursday<br>
+              <input type="checkbox" name="friday" value="Friday" checked>Friday<br>
+              <input type="checkbox" name="saturday" value="Saturday">Saturday<br>
+              <input type="checkbox" name="sunday" value="Sunday">Sunday
+            </form>
+          </td>
+          <a href="dashboard.html">Cancel</a>
+          <input type="submit" name="Save" value="Save">
+          <p class="main">
+            <span id="important">prueba</span>
+          </p>
+        </table>
       </section>
+
 
 
 

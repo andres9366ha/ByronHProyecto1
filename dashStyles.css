@@ -1,3 +1,15 @@
+body{
+}
+
+header{
+  /*background-color: rgb(74, 153, 212);*/
+}
+
+header img{
+  width: 300px;
+  height: 150px;
+}
+
 nav{
   border-radius: 10px;
   padding: 10px;
@@ -9,6 +21,7 @@ nav ul{
 }
 
 nav ul li{
+  /*background-color: rgb(74, 153, 212);*/
     background-color: #656262;
     font-size: 1.5em;
     border-radius:5px;
@@ -33,7 +46,14 @@ nav ul li:hover{
     background-color: #000;
 }
 
+#tableTr{
+color: white;
+background-color: black;
+}
 
+.td1{
+background-color: #E8E5E5;
+}
 
 div table td{
   align-content: center;
