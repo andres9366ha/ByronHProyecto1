@@ -1,11 +1,19 @@
+*{border: 1px solid blue};
+
 body{
   background-color: white;
 }
 
-div.containerTop{
-  font-size: 34px;
-  color: rgb(85, 85, 85);
+div#containerTop{
+  height: 120px;
+  background: rgb(85, 85, 85);
+  margin-top: -10px;
+}
 
+h1#hcarpool{
+    font-size: 46px;
+    color: white;
+    margin-left: 50px;
 }
 
 header{
@@ -22,9 +30,9 @@ header img{
   height: 300px;
 }
 
-header strong{
-  margin-top: -170px;
-  margin-right: 180px;
+header p strong{
+  margin-top: -180px;
+  margin-right: 190px;
   color: white;
   font-size: 32px;
   float: right;
