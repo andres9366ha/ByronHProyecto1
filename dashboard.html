@@ -18,9 +18,9 @@
     <hr>
     <nav>
       <ul>
-        <li><a title="Dashboard" href="#">Dashboard</a></li>
-        <li><a title="Rides" href="#">Rides</a></li>
-        <li><a title="Settings" href="#">Settings</a></li>
+        <li id="botonSelec"><a title="Dashboard" href="dashboard.html" target="_self">Dashboard</a></li>
+        <li><a title="Rides" href="rides.html" target="_parent">Rides</a></li>
+        <li><a title="Settings" href="settings.html" target="_parent">Settings</a></li>
       </ul>
     </nav>
 
@@ -41,7 +41,8 @@
       </table>
     </div>
 
-      <form class="prueba" action="index.html" method="post">
+    <div align="center"> <!-- SOLUCIONAR ESTO -->
+      <form id="prueba" action="index.html" method="post">
         <fieldset>
           <legend>My Rides</legend>
           Your current list of Rides
@@ -71,9 +72,12 @@
               <td>Edit - Delete</td>
             </tr>
           </table>
-          <button id="btnPlus"type="button" name="button"><img id="plus" src="plus.png" alt="" /></button>
+
+          <a id="btnPlus"href="index.html" role="button"><img id="plus"src="plus.png" alt="" /></a>
         </fieldset>
       </form><br><br><br>
+    </div>
+
     <footer>Copyright (c) 2016 Copyright Holder All Rights Reserved.</footer>
   </body>
 </html>

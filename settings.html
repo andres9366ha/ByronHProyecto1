@@ -7,22 +7,26 @@
     <link rel="stylesheet" href="settingsStyles.css">
   </head>
   <body>
+    <div id="containerTop">
+      <h1 id="hcarpool">CARPOOLCR.COM</h1>
+    </div>
     <header>
       <figure><img src="head.png" alt="Imagen Carpooling">
       </figure>
+      <p><strong>"No solo tu billetera te lo agradecerá. <br>El mundo también"</strong></p>
     </header>
-
+    <hr>
     <nav>
       <ul>
-        <li><a title="Dashboard" href="#">Dashboard</a></li>
-        <li><a title="Rides" href="#">Rides</a></li>
-        <li><a title="Settings" href="#">Settings</a></li>
+        <li><a title="Dashboard" href="dashboard.html" target="_parent">Dashboard</a></li>
+        <li><a title="Rides" href="rides.html" target="_parent">Rides</a></li>
+        <li id="botonSelec"><a title="Settings" href="settings.html" target="_self">Settings</a></li>
       </ul>
     </nav>
 
     <div>
       <table>
-        <td id="dash">
+        <td id="settings">
           <h1 class="toTable">Settings</h1>
         </td>
         <td>
@@ -37,17 +41,23 @@
       </table>
 
       <section>
-        <form>
-          Full Name <br>
-          <input type="text" name="Full name"><br>
-          Speed Average <br>
-          <input type="text" name="Speed average"><br>
-          <br>
-          About Me <br>
-          <textarea name="name" rows="8" cols="40"></textarea><br>
-          <a href="dashboard.html">Cancel</a>
-          <input type="submit" name="Save" value="Save">
-        </form>
+        <div align="center">
+          <form>
+            Full Name <br>
+            <input type="text" name="Full name"><br>
+            Speed Average <br>
+            <input type="text" name="Speed average"><br>
+            <br>
+            About Me <br>
+            <textarea name="name" rows="8" cols="40"></textarea><br>
+            <a href="dashboard.html">Cancel</a>
+            <input type="submit" name="Save" value="Save">
+          </form>
+        </div>
       </section>
+
+      <footer>Copyright (c) 2016 Copyright Holder All Rights Reserved.</footer>
+      
+
   </body>
 </html>

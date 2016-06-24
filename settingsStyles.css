@@ -1,3 +1,51 @@
+*{
+  border: 1px solid blue;
+}
+
+#botonSelec{
+  background: rgb(13, 176, 43);
+  font-size: 1.5em;
+  border-radius:5px;
+  border-bottom: 1px solid #888;
+  padding: 10px;
+  text-align:center;
+}
+
+div#containerTop{
+  height: 120px;
+  background: rgb(85, 85, 85);
+  margin-top: -10px;
+}
+
+h1#hcarpool{
+    font-size: 46px;
+    color: white;
+    margin-left: 50px;
+}
+
+header{
+  background: rgb(13, 176, 43);
+  margin-top: 10px;
+}
+
+header figure{
+  width: 300px;
+}
+
+header img{
+  width: 300px;
+  height: 300px;
+}
+
+header p strong{
+  margin-top: -180px;
+  margin-right: 190px;
+  color: white;
+  font-size: 32px;
+  float: right;
+}
+
+
 nav{
   border-radius: 10px;
   padding: 10px;
@@ -37,8 +85,8 @@ div table td{
   align-content: center;
 }
 
-#dash{
-  width: 1000px;
+#settings{
+  width: 1300px;
 }
 
 td a{
@@ -50,4 +98,10 @@ td a{
   margin-left: -30px;
   width: 40px;
   height: 40px;
+}
+
+footer{
+  text-align: center;
+  background: rgb(85, 85, 85);
+  color: white;
 }

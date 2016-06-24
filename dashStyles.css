@@ -1,7 +1,18 @@
-*{border: 1px solid blue};
+*{
+  border: 1px solid blue;
+}
 
 body{
   background-color: white;
+}
+
+#botonSelec{
+  background: rgb(13, 176, 43);
+  font-size: 1.5em;
+  border-radius:5px;
+  border-bottom: 1px solid #888;
+  padding: 10px;
+  text-align:center;
 }
 
 div#containerTop{
@@ -70,7 +81,7 @@ nav li{
 
 
 nav ul li:hover{
-  background: rgb(13, 176, 43);
+  background: #000000;
 }
 
 #tableTr{
@@ -89,6 +100,7 @@ div table td{
 #dash{
   width: 1300px;
 }
+
 a{
   text-decoration: none;
   color: orange;
@@ -103,11 +115,11 @@ a{
 fieldset{
   width: 800px;
   text-align: center;
-  margin-right: -100px;
 }
 
 table.box{
   width: 1000px;
+  border-collapse: collapse;
 }
 
 table.box th{
@@ -116,6 +128,10 @@ table.box th{
 
 table.box td{
   padding: 15px;
+}
+
+#prueba{
+  align-content: center;
 }
 
 #btnPlus{
