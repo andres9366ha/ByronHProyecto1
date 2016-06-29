@@ -1,10 +1,82 @@
-*{
-  border: 1px solid blue;
+body{
+  border: 1px solid yellow;
+}
+#map-canvas {
+   width: 500px;
+   height: 250px;
+   float: right;
+   margin-top: -238px;
 }
 
-body{
-  background-color: white;
+header{
+  border: 1px solid green;
 }
+
+header figure{
+  border: 1px solid black;
+  width: 200px;
+}
+
+header figure img{
+  width: 200px;
+  height: 200px;
+}
+
+
+header p{
+  margin-top: -200px;
+  float: right;
+}
+
+.pruebaAside{
+  list-style: none;
+  width: 200px;
+  display: inline-block;
+}
+
+li.ancho{
+  width: 200px;
+  text-align: left;
+}
+
+img.icon{
+  width: 20px;
+  height: 20px;
+  margin-right  : 10px;
+}
+
+table{
+  border: 1px solid red;
+}
+
+div#pruebaParag{
+  width: 800px;
+  height: 300px;
+  float: right;
+  margin-right: 200px;
+}
+
+div ul li{
+    font-size: 1.5em;
+    border-radius:5px;
+    border-bottom: 1px solid #888;
+    padding: 10px;
+    text-align:center;
+}
+
+div a{
+  text-decoration: none;
+  color: white;
+}
+
+div table td a{
+  color: orange;
+}
+
+div ul li:hover{
+  font-size: 30px;
+}
+
 
 #botonSelec{
   background: rgb(13, 176, 43);
@@ -16,72 +88,15 @@ body{
 }
 
 div#containerTop{
-  height: 120px;
+  height: 80px;
   background: rgb(85, 85, 85);
   margin-top: -10px;
 }
 
 h1#hcarpool{
-    font-size: 46px;
+    font-size: 40px;
     color: white;
     margin-left: 50px;
-}
-
-header{
-  background: rgb(13, 176, 43);
-  margin-top: 10px;
-}
-
-header figure{
-  width: 300px;
-}
-
-header img{
-  width: 300px;
-  height: 300px;
-}
-
-header p strong{
-  margin-top: -180px;
-  margin-right: 190px;
-  color: white;
-  font-size: 32px;
-  float: right;
-}
-
-nav{
-  border-radius: 10px;
-  padding: 10px;
-  width: 950px;
-}
-
-nav ul{
-    list-style:none;
-}
-
-nav ul li{
-    background: rgb(85, 85, 85);
-    font-size: 1.5em;
-    border-radius:5px;
-    border-bottom: 1px solid #888;
-    padding: 10px;
-    text-align:center;
-}
-
-nav a{
-  text-decoration: none;
-  color: white;
-}
-
-nav li{
-  width: 100px;
-  text-align: center;
-  display: table-cell;
-}
-
-
-nav ul li:hover{
-  background: #000000;
 }
 
 #tableTr{
@@ -93,17 +108,8 @@ background: rgb(13, 176, 43);
 background-color: #E8E5E5;
 }
 
-div table td{
-  align-content: center;
-}
-
 #dash{
   width: 1300px;
-}
-
-a{
-  text-decoration: none;
-  color: orange;
 }
 
 #perfil{
@@ -113,12 +119,16 @@ a{
 }
 
 fieldset{
-  width: 800px;
+  width: 400px;
   text-align: center;
 }
 
+legend{
+  text-align: left;
+}
+
 table.box{
-  width: 1000px;
+  width: 600px;
   border-collapse: collapse;
 }
 
@@ -127,11 +137,7 @@ table.box th{
 }
 
 table.box td{
-  padding: 15px;
-}
-
-#prueba{
-  align-content: center;
+  padding: 10px;
 }
 
 #btnPlus{
