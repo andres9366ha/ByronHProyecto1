@@ -8,75 +8,70 @@
   </head>
 
   <body>
-    <div id="containerTop">
-      <h1 id="hcarpool">CARPOOLCR.COM</h1>
-    </div>
-    <header>
-      <figure><img src="head.png" alt="Imagen Carpooling">
-      </figure>
-      <p><strong>"No solo tu billetera te lo agradecerá. <br>El mundo también"</strong></p>
-    </header>
-
-    <div>
-      <table>
-        <td id="dash">
-          <h2>Dashboard</h2>
+  <div>
+    <table>
+      <td id="first">
+        <h1>CARPOOLCR.COM</h1>
+      </td>
+      <td>
+        Welcome
+      </td>
+      <td>
+        <label id="user">bhernandeza</label>
         </td>
         <td>
-          Welcome
-        </td>
-        <td>
-          <a href="settings.html">bhernandeza</a>
-        </td>
-        <td>
-          <figure><img id="perfil" src="perfil.jpg" alt="Imagen perfil" /></figure>
+          <figure><img id="profile" src="perfil.jpg" alt="Image profile" /></figure>
         </td>
       </table>
-
-
-      <ul class="pruebaAside">
-        <li class="ancho"><img src="iconDash.jpg" alt="" class="icon"/>Dashboard</li>
-        <li class="ancho"><img src="iconRide.jpg" alt="" class="icon"/>Rides</li>
-        <li class="ancho"><img src="iconSettings.png" alt="" class="icon" />Settings</li>
-      </ul>
-
-
-      <div id="pruebaParag">
-          <fieldset>
-            <legend>My Rides</legend>
-            Your current list of Rides
-            <table class="box">
-              <tr id="tableTr">
-                <th>Name</th>
-                <th>Start</th>
-                <th>End</th>
-                <th>Actions</th>
-              </tr>
-              <tr class="td1">
-                <td>Office</td>
-                <td>Monday</td>
-                <td>Thursday</td>
-                <td>Edit - Delete</td>
-              </tr>
-              <tr>
-                <td>Back Home</td>
-                <td>Monday</td>
-                <td>Thursday</td>
-                <td>Edit - Delete</td>
-              </tr>
-              <tr class="td1">
-                <td>Training</td>
-                <td>Friday</td>
-                <td>Saturday</td>
-                <td>Edit - Delete</td>
-              </tr>
-            </table>
-
-            <a id="btnPlus"href="index.html" role="button"><img id="plus"src="plus.png" alt="" /></a>
-          </fieldset>
-        <br><br><br>
-      </div>
     </div>
 
+    <header>
+      <figure><img src="head.png" alt="Imagen Carpooling"></figure>
+      <p><strong>GET A RIDE!</strong></p>
+    </header>
+      <section id="big">
+        <div id="menu">
+          <ul id="noList">
+            <li class="li"><img src="iconDash.jpg" alt="" class="icon"/>Dashboard</li>
+            <a href="rides.html" target="_blank"><li class="li"><img src="iconRide.jpg" alt="" class="icon"/>Rides</li></a>
+            <a href="settings.html" target="_blank"><li class="li"><img src="iconSettings.png" alt="" class="icon" />Settings</li></a>
+          </ul>
+        </div>
+
+        <div id="information">
+            <fieldset>
+              <legend>My Rides</legend>
+              Your current list of Rides
+              <table id="boxRides">
+                <tr id="tableTr">
+                  <th>Name</th>
+                  <th>Start</th>
+                  <th>End</th>
+                  <th>Actions</th>
+                </tr>
+                <tr class="td1">
+                  <td>Office</td>
+                  <td>Monday</td>
+                  <td>Thursday</td>
+                  <td><a href="">Edit - Delete</a></td>
+                </tr>
+                <tr>
+                  <td>Back Home</td>
+                  <td>Monday</td>
+                  <td>Thursday</td>
+                  <td><a href="">Edit - Delete</a></td>
+                </tr>
+                <tr class="td1">
+                  <td>Training</td>
+                  <td>Friday</td>
+                  <td>Saturday</td>
+                  <td><a href="">Edit - Delete</a></td>
+                </tr>
+              </table>
+              <a id="btnPlus"href="rides.html" role="button"><img id="plus"src="plus.png" alt="" /></a>
+            </fieldset>
+        </div>
+      </section>
+    <footer>Copyright (c) 2016 Copyright Holder All Rights Reserved.</footer>
   </body>
 </html>

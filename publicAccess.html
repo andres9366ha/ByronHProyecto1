@@ -4,75 +4,77 @@
     <meta charset="utf-8">
     <title>Welcome</title>
     <link rel="shortcut icon" type="imagen/x-icon" href="head.png">
-    <link rel="stylesheet" href="publicStyles.css">
+    <link rel="stylesheet" href="dashStyles.css">
   </head>
+
   <body>
-    <div id="containerTop">
-      <h1 id="hcarpool">CARPOOLCR.COM</h1>
-    </div>
+    <div>
+      <table>
+        <td id="first">
+          <h1>CARPOOLCR.COM</h1>
+        </td>
+        <td>
+          Welcome
+        </td>
+        <td>
+          <label id="user">bhernandeza</label>
+          </td>
+          <td>
+            <figure><img id="profile" src="perfil.jpg" alt="Image profile" /></figure>
+          </td>
+        </table>
+      </div>
+
     <header>
-      <figure><img src="head.png" alt="Imagen Carpooling">
-      </figure>
-      <p><strong>"No solo tu billetera te lo agradecerá. <br>El mundo también"</strong></p>
+      <figure><img src="head.png" alt="Imagen Carpooling"></figure>
+      <p><strong>GET A RIDE!</strong></p>
     </header>
 
-    <section>
+    <section id="matches">
+      <div class="match">
       <label>Search for a ride</label>
           <form>
+            <fieldset>
             <label>From</label>
             <input type="text" name="from" value="Input Text">
             <label>To</label>
             <input type="text" name="to" value="Input Text">
-            <input type="button" name="find" value="Find my Ride!">
+            <input id="btnFind"type="button" name="find" value="Find my Ride!">
+            </fieldset>
           </form>
-
-          <br>
-          <label>Results for Rides that matches your criteria:</label>
-          <br><br>
-          <table>
-            <tr>
-              <th>
-               User
-             </th>
-              <th>
-               Start
-             </th>
-             <th>
-               End
-             </th>
-             <th>
-             </th>
+        </div>
+        <div class="match">
+          <fieldset>
+            <legend>Results for Rides that matches your criteria:</legend>
+          <table id="boxRides">
+            <tr id="tableTr">
+              <th>User</th>
+              <th>Start</th>
+             <th>End</th>
+             <th></th>
+           </tr>
+           <tr class="td1">
+             <td>bhernandeza</td>
+             <td>Sucre</td>
+             <td>Ciudad Quesada</td>
+             <td>View</td>
            </tr>
            <tr>
-             <td>
-               bhernandeza
-             </td>
-             <td>
-               Sucre
-             </td>
-             <td>
-               Ciudad Quesada
-             </td>
-             <td>
-               View
-             </td>
+             <td>bhernandeza</td>
+             <td>Ciudad Quesada</td>
+             <td>Aguas Zarcas</td>
+             <td>View</td>
            </tr>
-           <tr>
-             <td>
-               bhernandeza
-             </td>
-             <td>
-               Ciudad Quesada
-             </td>
-             <td>
-               Aguas Zarcas
-             </td>
-             <td>
-               View
-             </td>
+           <tr class="td1">
+             <td>pcorderoa</td>
+             <td>Ciudad Quesada</td>
+             <td>Florencia</td>
+             <td>View</td>
            </tr>
-
           </table>
+          </fieldset>
+        </div>
     </section>
+    <footer>Copyright (c) 2016 Copyright Holder All Rights Reserved.</footer>
   </body>
 </html>

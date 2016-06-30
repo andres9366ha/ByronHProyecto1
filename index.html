@@ -2,28 +2,46 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Carpool</title>
+    <title>CarpoolCR</title>
     <meta name="keywords" content="Carpool Costa Rica, Carpooling CostaRica">
     <meta name="description" content="Página diseñada para servicio Carpooling">
     <meta name="author" content="Byron Hernández Aguilar">
     <link rel="shortcut icon" type="imagen/x-icon" href="head.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashStyles.css">
   </head>
+
   <body>
+
+    <div>
+      <table>
+        <td id="first">
+          <h1>CARPOOLCR.COM</h1>
+        </td>
+        <td>
+          Welcome
+        </td>
+        <td>
+          <label id="user">bhernandeza</label>
+          </td>
+          <td>
+            <figure><img id="profile" src="perfil.jpg" alt="Image profile" /></figure>
+          </td>
+        </table>
+      </div>
+
       <header>
-        <figure id="logo"><img src="head.png" alt="Imagen Carpooling">
-        </figure>
-          <h1>Carpool CR</h1>
+        <figure><img src="head.png" alt="Imagen Carpooling"></figure>
+        <p><strong>GET A RIDE!</strong></p>
       </header>
 
-      <section>
-        <form>
-          Username <br>
-          <input type="text" name="Username"><br>
-          Password <br>
-          <input type="text" name="Password"><br>
-          Not an user? <a href="signIn.html" target="_parent">Register Here</a><br><br>
-          <input type="submit" name="Login">
+      <section id="matches">
+        <form id="auth">
+          <label>Username</label><br>
+          <input type="text" name="Username" value="Input text"><br>
+          <label>Password</label> <br>
+          <input type="text" name="Password" value="Input Text"><br>
+          <label>Not an user?</label> <a href="signIn.html" target="_parent">Register Here</a><br><br>
+          <input type="submit" name="Login" value="Login">
         </form>
       </section>
 

@@ -1,125 +1,75 @@
-body{
-  border: 1px solid yellow;
-}
-#map-canvas {
-   width: 500px;
-   height: 250px;
-   float: right;
-   margin-top: -238px;
+td#first{
+  width: 1300px; /*Ancho de "carpoolcr.com" y ubica foto al final*/
+  color: rgb(13, 176, 43); /*Color de "carpoolcr.com"*/
 }
 
-header{
-  border: 1px solid green;
+label#user{
+  color: orange; /*Color de nombre de usuario*/
 }
 
-header figure{
-  border: 1px solid black;
-  width: 200px;
-}
-
-header figure img{
-  width: 200px;
-  height: 200px;
-}
-
-
-header p{
-  margin-top: -200px;
-  float: right;
-}
-
-.pruebaAside{
-  list-style: none;
-  width: 200px;
-  display: inline-block;
-}
-
-li.ancho{
-  width: 200px;
-  text-align: left;
-}
-
-img.icon{
-  width: 20px;
-  height: 20px;
-  margin-right  : 10px;
-}
-
-table{
-  border: 1px solid red;
-}
-
-div#pruebaParag{
-  width: 800px;
-  height: 300px;
-  float: right;
-  margin-right: 200px;
-}
-
-div ul li{
-    font-size: 1.5em;
-    border-radius:5px;
-    border-bottom: 1px solid #888;
-    padding: 10px;
-    text-align:center;
-}
-
-div a{
-  text-decoration: none;
-  color: white;
-}
-
-div table td a{
-  color: orange;
-}
-
-div ul li:hover{
-  font-size: 30px;
-}
-
-
-#botonSelec{
-  background: rgb(13, 176, 43);
-  font-size: 1.5em;
-  border-radius:5px;
-  border-bottom: 1px solid #888;
-  padding: 10px;
-  text-align:center;
-}
-
-div#containerTop{
-  height: 80px;
-  background: rgb(85, 85, 85);
-  margin-top: -10px;
-}
-
-h1#hcarpool{
-    font-size: 40px;
-    color: white;
-    margin-left: 50px;
-}
-
-#tableTr{
-color: white;
-background: rgb(13, 176, 43);
-}
-
-.td1{
-background-color: #E8E5E5;
-}
-
-#dash{
-  width: 1300px;
-}
-
-#perfil{
+#profile{
   margin-left: -30px;
   width: 60px;
   height: 60px;
 }
 
+header{
+  background: rgb(13, 176, 43);
+}
+
+header figure{
+  display: inline-block;
+  width: 500px; /*Ancho de la figura*/
+}
+
+header figure img{ /*Propiedades de tamaño de la imagen*/
+  width: 200px;
+  height: 150px;
+}
+
+header p{
+  position: absolute;
+  display: inline-block;
+  color: white;
+  font-size: 60px;
+}
+
+section#big{
+  height: 400px;
+}
+
+div#menu{
+  width: 300px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+ul#noList{
+  list-style: none;
+}
+
+li.li{
+  width: 200px;
+  text-align: left;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+img.icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+div#information{
+  position: absolute;
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
 fieldset{
-  width: 400px;
+  width: 800px;
   text-align: center;
 }
 
@@ -127,17 +77,26 @@ legend{
   text-align: left;
 }
 
-table.box{
-  width: 600px;
+table#boxRides{
+  width: 800px;
   border-collapse: collapse;
 }
 
-table.box th{
+table#boxRides th{
   padding: 20px;
 }
 
-table.box td{
+table#boxRides td{
   padding: 10px;
+}
+
+#tableTr{
+color: white;
+background: rgb(13, 176, 43);
+}
+
+table tr.td1{
+background-color: #E8E5E5;
 }
 
 #btnPlus{
@@ -151,6 +110,35 @@ table.box td{
 
 footer{
   text-align: center;
-  background: rgb(85, 85, 85);
-  color: white;
+}
+
+div ul li:hover{
+  font-size: 30px;
+}
+
+/************************************************************************************************************PUBLIC ACCESS*/
+
+section#matches{
+  position: relative;
+}
+
+div.match{
+  margin-left: 24%;
+  margin-top: 40px;
+}
+
+input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input#btnFind{
+  float: right;
+}
+
+/*********************************************************************************************************INDEX*/
+
+form#auth{
+  text-align: center;
+  margin-top: 40px;
 }
