@@ -4,58 +4,77 @@
     <meta charset="utf-8">
     <title>Rides</title>
     <link rel="shortcut icon" type="imagen/x-icon" href="head.png">
-    <link rel="stylesheet" href="ridesStyles.css">
+    <link rel="stylesheet" href="dashStyles.css">
   </head>
+
   <body>
-    <header>
-      <figure><img src="head.png" alt="Imagen Carpooling">
-      </figure>
-    </header>
-
-    <nav>
-      <ul>
-        <li><a title="Dashboard" href="#">Dashboard</a></li>
-        <li><a title="Rides" href="#">Rides</a></li>
-        <li><a title="Settings" href="#">Settings</a></li>
-      </ul>
-    </nav>
-
     <div>
       <table>
-        <td id="dash">
-          <h1>Settings</h1>
+        <td id="first">
+          <h1>CARPOOLCR.COM</h1>
         </td>
         <td>
           Welcome
         </td>
         <td>
-          <a href="settings.html">bhernandeza</a>
-        </td>
-        <td>
-          <figure><img id="perfil" src="perfil.jpg" alt="Imagen perfil" /></figure>
-        </td>
-      </table>
+          <label id="user">bhernandeza</label>
+          </td>
+          <td>
+            <figure><img id="profile" src="perfil.jpg" alt="Image profile" /></figure>
+          </td>
+        </table>
+      </div>
 
-      <section>
+      <header>
+        <figure><img src="head.png" alt="Imagen Carpooling"></figure>
+        <p><strong>GET A RIDE!</strong></p>
+      </header>
+        <section id="big">
+          <div id="menu">
+            <ul id="noList">
+            <a class="tabs" href="dashboard.html" target="_blank"><li class="li"><img src="iconDash.jpg" alt="" class="icon"/>Dashboard</li>
+              <li id="select"><img src="iconRide.jpg" alt="" class="icon"/>Rides</li>
+              <a class="tabs" href="settings.html" target="_blank"><li class="li"><img src="iconSettings.png" alt="" class="icon"/>Settings</li></a>
+            </ul>
+          </div>
+
+      <section id="center">
         <form>
           Ride Name <br>
-          <input type="text" name="name"><br>
-          Start From End <br>
-          <input type="text" name="name"><br>
-          <input type="text" name="name"><br>
+          <input type="text" name="name" value="Input text"><br>
+          <table>
+            <tr>
+              <td>
+                Start From
+              </td>
+              <td>
+                End
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" name="name" value="Location"><br>
+              </td>
+              <td>
+                <input type="text" name="name" value="Input text"><br>
+              </td>
+            </tr>
+          </table>
           Description <br>
-          <textarea name="name" rows="8" cols="40"></textarea><br>
-          <hr>
+          <textarea name="name" rows="8" cols="40">Add here the description of the ride</textarea>
         </form>
-        <strong>When</strong><br>
-        <table>
-          <td>
+
+        <section id="add">
+          <hr>
+          <strong>When</strong><br>
+          <div id="rideAdd">
             Departure <br>
             <input type="text" name="departure" value="6:45 AM"><br>
             Estimated Arrival <br>
             <input type="text" name="estimatedArr" value="7:05 AM">
-          </td>
-          <td>
+          </div>
+
+          <div id="days">
             Select Days <br>
             <form>
               <input type="checkbox" name="monday" value="Monday" checked>Monday<br>
@@ -64,19 +83,14 @@
               <input type="checkbox" name="thursday" value="Thursday" checked>Thursday<br>
               <input type="checkbox" name="friday" value="Friday" checked>Friday<br>
               <input type="checkbox" name="saturday" value="Saturday">Saturday<br>
-              <input type="checkbox" name="sunday" value="Sunday">Sunday
+              <input type="checkbox" name="sunday" value="Sunday">Sunday<br>
             </form>
-          </td>
-          <a href="dashboard.html">Cancel</a>
-          <input type="submit" name="Save" value="Save">
-          <p class="main">
-            <span id="important">prueba</span>
-          </p>
-        </table>
-      </section>
+
+          </div>
 
 
-
-
+        </section>
+        <a id="cancelR" href="dashboard.html">Cancel</a>
+        <input id="saveR" type="submit" name="Save" value="Save">
   </body>
 </html>

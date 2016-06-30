@@ -48,11 +48,23 @@ ul#noList{
   list-style: none;
 }
 
+li#select{
+  width: 160px;
+  font-size: 30px;
+  text-align: left;
+  border-bottom: 6px solid rgb(13, 176, 43);
+}
+
 li.li{
   width: 200px;
   text-align: left;
   font-size: 1.5em;
   padding: 10px;
+}
+
+a.tabs{
+  text-decoration: none;
+  color: black;
 }
 
 img.icon{
@@ -113,7 +125,17 @@ footer{
 }
 
 div ul li:hover{
-  font-size: 30px;
+  font-size: 25px;
+  text-align: left;
+  padding: 5px;
+}
+
+/*Centra secciones en varios html*/
+section#center{
+  position: absolute;
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 50px;
 }
 
 /************************************************************************************************************PUBLIC ACCESS*/
@@ -128,7 +150,6 @@ div.match{
 }
 
 input{
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -141,4 +162,42 @@ input#btnFind{
 form#auth{
   text-align: center;
   margin-top: 40px;
+}
+
+/********************************************************************************************************SETTINGS*/
+
+a#cancel{
+  float: left;
+}
+
+input#save{
+  float: right;
+}
+
+/********************************************************************************************************RIDES*/
+
+section#add{
+  width: 300px;
+  display: inline-block;
+}
+
+div#rideAdd{
+    display: inline-block;
+}
+
+div#days{
+  display: inline-block;
+  margin-left: 50px;
+  position: absolute;
+}
+
+a#cancelR{
+  position: absolute;
+  top: 540px;
+  right: 300px;
+}
+
+input#saveR{
+  position: absolute;
+  top: 540px;
 }

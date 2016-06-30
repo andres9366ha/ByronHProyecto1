@@ -4,30 +4,48 @@
     <meta charset="utf-8">
     <title>Sign In</title>
     <link rel="shortcut icon" type="imagen/x-icon" href="head.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashStyles.css">
   </head>
+
   <body>
-    <header>
-      <figure id="logo"><img src="head.png" alt="Imagen Carpooling">
-      </figure>
-        <h1>Carpool CR</h1>
-    </header>
+    <div>
+      <table>
+        <td id="first">
+          <h1>CARPOOLCR.COM</h1>
+        </td>
+        <td>
+          Welcome
+        </td>
+        <td>
+          <label id="user">bhernandeza</label>
+          </td>
+          <td>
+            <figure><img id="profile" src="perfil.jpg" alt="Image profile" /></figure>
+          </td>
+        </table>
+      </div>
+
+      <header>
+        <figure><img src="head.png" alt="Imagen Carpooling"></figure>
+        <p><strong>GET A RIDE!</strong></p>
+      </header>
+
     <section>
-      <form>
+      <form id="auth">
         First Name <br>
-        <input type="text" name="Firstname"><br>
+        <input type="text" name="Firstname" value="Input text"><br>
         Last Name <br>
-        <input type="text" name="Lastname"><br>
+        <input type="text" name="Lastname" value="Input text"><br>
         Phone <br>
-        <input type="text" name="Phone"><br>
+        <input type="text" name="Phone" value="(XXX) XXX-XXXX"><br>
         Username <br>
-        <input type="text" name="Username"><br>
+        <input type="text" name="Username" value="Input text"><br>
         Password <br>
-        <input type="text" name="Password"><br>
+        <input type="text" name="Password" value="Input text"><br>
         Repeat Password <br>
-        <input type="text" name="Repeatpass"><br>
+        <input type="text" name="Repeatpass" value="Input Text"><br>
         Already an user? <a href="index.html" target="_parent">Login Here</a><br><br>
-        <input type="submit" name="Register">
+        <input type="submit" name="Register" value="Register">
       </form>
     </section>
   </body>
