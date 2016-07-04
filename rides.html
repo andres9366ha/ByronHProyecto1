@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>Rides</title>
     <link rel="shortcut icon" type="imagen/x-icon" href="head.png">
-    <link rel="stylesheet" href="dashStyles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="map.js"></script>
   </head>
 
   <body>
@@ -27,7 +29,12 @@
 
       <header>
         <figure><img src="head.png" alt="Imagen Carpooling"></figure>
-        <p><strong>GET A RIDE!</strong></p>
+        <p><strong>GET YOUR RIDE!</strong></p>
+        <div id="contact">
+          <a href="https://www.facebook.com/byron.hernandez.1213" role="button" target="_blank"><img class="iconContact"src="fbicon.png" alt=""/></a>
+          <a href="https://twitter.com/andres9366ha" role="button" target="_blank"><img class="iconContact"src="twicon.png" alt=""/></a>
+          <a href="https://plus.google.com/u/0/104629948697191131655/posts" role="button" target="_blank"><img class="iconContact"src="gicon.png" alt=""/></a>
+        </div>
       </header>
         <section id="big">
           <div id="menu">
@@ -44,26 +51,17 @@
           <input type="text" name="name" value="Input text"><br>
           <table>
             <tr>
-              <td>
-                Start From
-              </td>
-              <td>
-                End
-              </td>
+              <td>Start From</td>
+              <td>End</td>
             </tr>
             <tr>
-              <td>
-                <input type="text" name="name" value="Location"><br>
-              </td>
-              <td>
-                <input type="text" name="name" value="Input text"><br>
-              </td>
+              <td><input type="text" name="name" value="Location"><br></td>
+              <td><input type="text" name="name" value="Input text"><br></td>
             </tr>
           </table>
           Description <br>
           <textarea name="name" rows="8" cols="40">Add here the description of the ride</textarea>
         </form>
-
         <section id="add">
           <hr>
           <strong>When</strong><br>
@@ -88,9 +86,14 @@
 
           </div>
 
-
         </section>
         <a id="cancelR" href="dashboard.html">Cancel</a>
-        <input id="saveR" type="submit" name="Save" value="Save">
+        <a id="saveR" href="dashboard.html">Save</a>
+        <div id="map-canvas"></div>
+
+        <button id="getPositionRide" type="button" name="button">Save</button>
+
+        <footer id="copyR">Copyright (c) 2016 Copyright Holder All Rights Reserved.</footer>
+
   </body>
 </html>

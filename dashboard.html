@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Dashboard</title>
     <link rel="shortcut icon" type="imagen/x-icon" href="head.png">
-    <link rel="stylesheet" href="dashStyles.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
@@ -27,8 +27,14 @@
 
     <header>
       <figure><img src="head.png" alt="Imagen Carpooling"></figure>
-      <p><strong>GET A RIDE!</strong></p>
+      <p><strong>GET YOUR RIDE!</strong></p>
+      <div id="contact">
+        <a href="https://www.facebook.com/byron.hernandez.1213" role="button" target="_blank"><img class="iconContact"src="fbicon.png" alt=""/></a>
+        <a href="https://twitter.com/andres9366ha" role="button" target="_blank"><img class="iconContact"src="twicon.png" alt=""/></a>
+        <a href="https://plus.google.com/u/0/104629948697191131655/posts" role="button" target="_blank"><img class="iconContact"src="gicon.png" alt=""/></a>
+      </div>
     </header>
+
       <section id="big">
         <div id="menu">
           <ul id="noList">
@@ -53,25 +59,26 @@
                   <td>Office</td>
                   <td>Monday</td>
                   <td>Thursday</td>
-                  <td><a href="">Edit - Delete</a></td>
+                  <td><a class="link" href="">Edit - Delete</a></td>
                 </tr>
                 <tr>
                   <td>Back Home</td>
                   <td>Monday</td>
                   <td>Thursday</td>
-                  <td><a href="">Edit - Delete</a></td>
+                  <td><a class="link" href="">Edit - Delete</a></td>
                 </tr>
                 <tr class="td1">
                   <td>Training</td>
                   <td>Friday</td>
                   <td>Saturday</td>
-                  <td><a href="">Edit - Delete</a></td>
+                  <td><a class="link" href="">Edit - Delete</a></td>
                 </tr>
               </table>
               <a id="btnPlus"href="rides.html" role="button"><img id="plus"src="plus.png" alt="" /></a>
             </fieldset>
         </div>
       </section>
+      <div id="map-canvas"></div>
     <footer>Copyright (c) 2016 Copyright Holder All Rights Reserved.</footer>
   </body>
 </html>
